@@ -6,8 +6,8 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="bdced9a4-33a8-4938-a8ff-02f04b30267d" time="1384538457866" ignored="false" />
     <file path="/App.java" changelist="bdced9a4-33a8-4938-a8ff-02f04b30267d" time="1384538007908" ignored="false" />
-    <file path="/HelloWorldController.java" changelist="bdced9a4-33a8-4938-a8ff-02f04b30267d" time="1384538199083" ignored="false" />
-    <file path="/Procfile" changelist="bdced9a4-33a8-4938-a8ff-02f04b30267d" time="1384538442039" ignored="false" />
+    <file path="/HelloWorldController.java" changelist="bdced9a4-33a8-4938-a8ff-02f04b30267d" time="1384542096776" ignored="false" />
+    <file path="/Procfile" changelist="bdced9a4-33a8-4938-a8ff-02f04b30267d" time="1384539831860" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorldController.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HelloWorldController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/maciejwalkowiak/spring/boot/heroku/HelloWorldController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="11" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+            <state line="14" column="25" selection-start="551" selection-end="551" vertical-scroll-proportion="0.34941763">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Procfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+            <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,9 +118,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/pl/maciejwalkowiak/spring/boot/heroku/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/maciejwalkowiak/spring/boot/heroku/HelloWorldController.java" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/maciejwalkowiak/spring/boot/heroku/HelloWorldController.java" />
       </list>
     </option>
   </component>
@@ -459,15 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/maciejwalkowiak/spring/boot/heroku/HelloWorldController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="11" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="26" selection-start="745" selection-end="745" vertical-scroll-proportion="-12.5">
@@ -477,8 +468,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/maciejwalkowiak/spring/boot/heroku/HelloWorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="25" selection-start="551" selection-end="551" vertical-scroll-proportion="0.34941763">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

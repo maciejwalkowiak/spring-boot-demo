@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloWorldController {
     @RequestMapping("/")
     @ResponseBody
-    public String hello() {
+    public String hello() throws InterruptedException {
+        Thread.sleep(2000);
         return "hello";
     }
 }
