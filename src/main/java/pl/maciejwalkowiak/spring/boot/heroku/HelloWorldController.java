@@ -1,18 +1,19 @@
 package pl.maciejwalkowiak.spring.boot.heroku;
 
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import pl.maciejwalkowiak.spring.boot.heroku.service.MessageService;
 
 @Controller
-@EnableAutoConfiguration
 public class HelloWorldController {
+    @Autowired
+    private MessageService messageService;
+
     @RequestMapping("/")
     @ResponseBody
-    public String hello() throws InterruptedException {
-        Thread.sleep(2000);
-        return "hello";
+    public Message hello() throws InterruptedException {
+        return messageService.message();
     }
 }
